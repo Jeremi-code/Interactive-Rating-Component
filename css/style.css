@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+}
+.container {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  width: 17%;
+  background-color: hsl(216, 12%, 8%);
+  padding: 1.2em;
+  border-radius: 20px;
+}
+.img-container img {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+}
+.container h3 {
+  color: white;
+}
+.container p {
+  color: hsl(217, 12%, 63%);
+  font-size: 13px;
+}
+.Rates {
+  display: flex;
+  justify-content: space-between;
+}
+.Rates span {
+  padding: 10px 14px;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-container button {
+  padding: 8px 0em;
+  width: 98%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  color: white;
+  letter-spacing: 2px;
+}
