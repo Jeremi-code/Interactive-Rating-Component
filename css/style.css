@@ -25,12 +25,17 @@ body {
 .Rates {
   display: flex;
   justify-content: space-between;
+  margin-top : 20px;
 }
 .Rates span {
   padding: 10px 14px;
   border-radius: 50%;
   background-color: hsl(213, 19%, 18%);
   color: hsl(217, 12%, 63%);
+}
+.Rates span:hover {
+    background-color : hsl(25, 97%, 53%);
+    color : white;  
 }
 .button-container {
   display: flex;
@@ -46,4 +51,8 @@ body {
   border-radius: 20px;
   color: white;
   letter-spacing: 2px;
+}
+button:hover {
+    background-color : white;
+    color : hsl(25, 97%, 53%);
 }
