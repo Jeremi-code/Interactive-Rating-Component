@@ -10,8 +10,8 @@ body {
   padding: 1.2em;
   border-radius: 20px;
 }
-.rate-container{
-  display : block;
+.rate-container {
+  display: block;
 }
 .img-container img {
   padding: 10px;
@@ -28,7 +28,7 @@ body {
 .Rates {
   display: flex;
   justify-content: space-between;
-  margin-top : 20px;
+  margin-top: 20px;
 }
 .Rates span {
   padding: 10px 14px;
@@ -37,8 +37,8 @@ body {
   color: hsl(217, 12%, 63%);
 }
 .Rates span:hover {
-    background-color : hsl(25, 97%, 53%);
-    color : white;  
+  background-color: hsl(25, 97%, 53%);
+  color: white;
 }
 .button-container {
   display: flex;
@@ -56,19 +56,19 @@ body {
   letter-spacing: 2px;
 }
 button:hover {
-    background-color : white;
-    color : hsl(25, 97%, 53%);
+  background-color: white;
+  color: hsl(25, 97%, 53%);
 }
 .result-container {
-    display : none ;
-    flex-direction : column;
-    align-items:center;
+  display: none;
+  flex-direction: column;
+  align-items: center;
 }
 .result-container p {
-  text-align : center;
+  text-align: center;
 }
-.result-text{
-  background-color : hsl(213, 19%, 18%) ;
-  padding : 5px 10px;
-  border-radius : 10px;
+.result-text {
+  background-color: hsl(213, 19%, 18%);
+  padding: 5px 10px;
+  border-radius: 10px;
 }
