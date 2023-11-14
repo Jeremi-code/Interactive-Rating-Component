@@ -10,6 +10,9 @@ body {
   padding: 1.2em;
   border-radius: 20px;
 }
+.rate-container{
+  display : block;
+}
 .img-container img {
   padding: 10px;
   border-radius: 50%;
@@ -55,4 +58,15 @@ body {
 button:hover {
     background-color : white;
     color : hsl(25, 97%, 53%);
+}
+.result-container {
+    display : none ;
+    flex-direction : column;
+    align-items:center;
+}
+.result-container p {
+  text-align : center;
+}
+.result-text{
+  background-color : white;
 }
