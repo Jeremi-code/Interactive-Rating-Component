@@ -40,10 +40,6 @@ body {
     background-color : hsl(25, 97%, 53%);
     color : white;  
 }
-.Rates span:active {
-  background-color :hsl(217, 12%, 63%);
-  color : white;
-}
 .button-container {
   display: flex;
   justify-content: center;
