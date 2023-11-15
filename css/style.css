@@ -3,8 +3,8 @@ body {
 }
 .container {
   position: absolute;
-  top: 35%;
-  left: 35%;
+  top: 30%;
+  left: 40%;
   width: 17%;
   background-color: hsl(216, 12%, 8%);
   padding: 1.2em;
@@ -71,4 +71,13 @@ button:hover {
   background-color: hsl(213, 19%, 18%);
   padding: 5px 10px;
   border-radius: 10px;
+}
+@media (max-width : 375px) {
+  .container {
+    width : 63%;
+    left : 20%;
+  }
+  .Rates span {
+    /* padding : 6px 10px; */
+  }
 }
