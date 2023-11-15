@@ -75,7 +75,7 @@ button:hover {
 @media (max-width : 375px) {
   .container {
     width : 63%;
-    left : 20%;
+    left : 13%;
   }
   .Rates span {
     /* padding : 6px 10px; */
